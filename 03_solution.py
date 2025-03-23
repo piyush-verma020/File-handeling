@@ -4,7 +4,7 @@ def tables(n):
     table = ""
     for i in range(1,11):
         table += f"{n} * {i} = {n*i}\n"
-    with open(f"table/table_{n}","w") as f:
+    with open(f"table/table_{n}.txt","w") as f:
         f.write(table)
 
 num1 = int(input("Enter the starting number of the multiplaication table: "))
