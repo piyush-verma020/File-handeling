@@ -46,13 +46,13 @@ def game():
 
         elif((computer - you) == -1 or (computer - you) == 2):
             print("You have lost the match")
-            breaking_point = 0  # score = 0 when the user looses
+            breaking_point = 0  # breaking point = 0 therefore leaving the game(while loop)
 
         elif((computer - you) == 1 or (computer - you) == -2):
             print("You have won the match!")
-            score += 1  # Increase score if user wins
+            score += 1  # Increase the score if user wins
 
-
+        print("\n")
         print(f"Your current score: {score}")
 
         if(score > hiscore):
@@ -61,7 +61,7 @@ def game():
                 f.write(str(hiscore))
             print("New high score!")
 
-    print("\n \n")
+    print("\n")
     print(f"Your final score was: {score}")
     print(f"The highest score recorded: {hiscore}")
 
