@@ -14,7 +14,7 @@ Q6> Write a program to mine a log file and find out whether it contains the word
 
 Q7> Write a program to find out the line number where python is present in question number 6.
 
-Q8> Write a program to make of a text file "this.txt".
+Q8> Write a program to make a copy of a text file "this.txt".
 
 Q9> Write a program to find out whether a file is identical & matches the content of another file.
 
